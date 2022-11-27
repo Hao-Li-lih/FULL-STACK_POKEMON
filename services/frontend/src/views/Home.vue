@@ -1,14 +1,15 @@
 <template>
   <section>
-    <p>FastAPI + Vue(Pokemon).</p>
+    <p>Exploiter les pokémon dans notre site Wiki Pokémon</p>
 
     <div v-if="isLoggedIn" id="logout">
-      <p id="logout">Click <a href="/dashboard">here</a> to view all pokemons.</p>
+      <p id="logout">Cliquer sur <a href="/dashboard">ici</a> pour accéder la liste des pokémon.</p>
     </div>
     <p v-else>
-      <span><a href="/register">Register</a></span>
-      <span> or </span>
-      <span><a href="/login">Log In</a></span>
+      <span>Pour accéder dans notre site Wiki Pokémon, vous pouvez : </span>
+      <span><a href="/register">Créer un compte</a></span>
+      <span> ou </span>
+      <span><a href="/login">Se connecter</a></span>
     </p>
   </section>
 </template>

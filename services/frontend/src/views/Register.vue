@@ -1,19 +1,21 @@
 <template>
   <section>
+    <p>Veuillez entrer votre nom d'utilisateur, nom et mot de passe :</p>
+
     <form @submit.prevent="submit">
       <div class="mb-3">
-        <label for="username" class="form-label">Username:</label>
+        <label for="username" class="form-label">Nom d'utilisateur:</label>
         <input type="text" name="username" v-model="user.username" class="form-control" />
       </div>
       <div class="mb-3">
-        <label for="full_name" class="form-label">Full Name:</label>
+        <label for="full_name" class="form-label">Nom:</label>
         <input type="text" name="full_name" v-model="user.full_name" class="form-control" />
       </div>
       <div class="mb-3">
-        <label for="password" class="form-label">Password:</label>
+        <label for="password" class="form-label">Mot de passe:</label>
         <input type="password" name="password" v-model="user.password" class="form-control" />
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Continuer</button>
     </form>
   </section>
 </template>

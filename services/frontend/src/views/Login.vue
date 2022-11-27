@@ -2,14 +2,14 @@
   <section>
     <form @submit.prevent="submit">
       <div class="mb-3">
-        <label for="username" class="form-label">Username:</label>
+        <label for="username" class="form-label">Nom d'utilisateur:</label>
         <input type="text" name="username" v-model="form.username" class="form-control" />
       </div>
       <div class="mb-3">
-        <label for="password" class="form-label">Password:</label>
+        <label for="password" class="form-label">Mot de passe:</label>
         <input type="password" name="password" v-model="form.password" class="form-control" />
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Continuer</button>
     </form>
   </section>
 </template>

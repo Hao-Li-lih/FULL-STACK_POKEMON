@@ -1,11 +1,11 @@
 <template>
   <section>
-    <h1>Your Profile</h1>
+    <h1>Mon Profil</h1>
     <hr/><br/>
     <div>
-      <p><strong>Full Name:</strong> <span>{{ user.full_name }}</span></p>
-      <p><strong>Username:</strong> <span>{{ user.username }}</span></p>
-      <p><button @click="deleteAccount()" class="btn btn-primary">Delete Account</button></p>
+      <p><strong>Nom:</strong> <span>{{ user.full_name }}</span></p>
+      <p><strong>Nom d'utilisateur:</strong> <span>{{ user.username }}</span></p>
+      <p><button @click="deleteAccount()" class="btn btn-primary">Supprimer ce compte</button></p>
     </div>
   </section>
 </template>

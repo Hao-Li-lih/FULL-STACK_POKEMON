@@ -1,12 +1,12 @@
 <template>
   <div v-if="note">
-    <p><strong>Title:</strong> {{ note.title }}</p>
-    <p><strong>Content:</strong> {{ note.content }}</p>
-    <p><strong>Author:</strong> {{ note.author.username }}</p>
+    <p><strong>Nom de pokémon:</strong> {{ note.title }}</p>
+    <p><strong>Description :</strong> {{ note.content }}</p>
+    <p><strong>Editeur:</strong> {{ note.author.username }}</p>
 
     <div v-if="user.id === note.author.id">
       <p><router-link :to="{name: 'EditNote', params:{id: note.id}}" class="btn btn-primary">Edit</router-link></p>
-      <p><button @click="removeNote()" class="btn btn-secondary">Delete</button></p>
+      <p><button @click="removeNote()" class="btn btn-secondary">Supprimer</button></p>
     </div>
   </div>
 </template>
