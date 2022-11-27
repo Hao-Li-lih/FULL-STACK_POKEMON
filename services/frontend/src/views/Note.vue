@@ -5,7 +5,7 @@
     <p><strong>Editeur:</strong> {{ note.author.username }}</p>
 
     <div v-if="user.id === note.author.id">
-      <p><router-link :to="{name: 'EditNote', params:{id: note.id}}" class="btn btn-primary">Edit</router-link></p>
+      <p><router-link :to="{name: 'EditNote', params:{id: note.id}}" class="btn btn-primary">Changer les informations</router-link></p>
       <p><button @click="removeNote()" class="btn btn-secondary">Supprimer</button></p>
     </div>
   </div>

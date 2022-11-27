@@ -1,22 +1,22 @@
 <template>
   <section>
-    <h1>Edit note</h1>
+    <h1>Changer des informations de pokémon</h1>
     <hr/><br/>
 
     <form @submit.prevent="submit">
       <div class="mb-3">
-        <label for="title" class="form-label">Title:</label>
+        <label for="title" class="form-label">Nom:</label>
         <input type="text" name="title" v-model="form.title" class="form-control" />
       </div>
       <div class="mb-3">
-        <label for="content" class="form-label">Content:</label>
+        <label for="content" class="form-label">Description:</label>
         <textarea
           name="content"
           v-model="form.content"
           class="form-control"
         ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Continuer</button>
     </form>
   </section>
 </template>

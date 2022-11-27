@@ -12,7 +12,7 @@
               <router-link class="nav-link" to="/">Page d'accueil</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/dashboard">Tableau de Pokemon</router-link>
+              <router-link class="nav-link" to="/dashboard">Tableau de Pokémon</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/profile">Mon Profil</router-link>
