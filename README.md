@@ -36,7 +36,7 @@ Dans le rubrique "Mon Profil", nous pouvons trouver les informations personnelle
 
 Nous pouvons également se déconnecter en cliquant sur "Se déconnecter" en haut.
 
-## Reference
+## Référence
 1.https://github.com/DataTrainingOrg/fullstack-data-application
 
 2.https://github.com/zy7y/watch-fastapi et https://juejin.cn/post/7015178908169404447
