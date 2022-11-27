@@ -3,7 +3,7 @@
     <h1>Mon Profil</h1>
     <hr/><br/>
     <div>
-      <p><strong>Nom:</strong> <span>{{ user.full_name }}</span></p>
+      
       <p><strong>Nom d'utilisateur:</strong> <span>{{ user.username }}</span></p>
       <p><button @click="deleteAccount()" class="btn btn-primary">Supprimer ce compte</button></p>
     </div>

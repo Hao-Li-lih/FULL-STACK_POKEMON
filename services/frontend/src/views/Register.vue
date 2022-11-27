@@ -1,15 +1,11 @@
 <template>
   <section>
-    <p>Veuillez entrer votre nom d'utilisateur, nom et mot de passe :</p>
+    <p>Veuillez entrer votre nom d'utilisateur et mot de passe :</p>
 
     <form @submit.prevent="submit">
       <div class="mb-3">
         <label for="username" class="form-label">Nom d'utilisateur:</label>
         <input type="text" name="username" v-model="user.username" class="form-control" />
-      </div>
-      <div class="mb-3">
-        <label for="full_name" class="form-label">Nom:</label>
-        <input type="text" name="full_name" v-model="user.full_name" class="form-control" />
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Mot de passe:</label>
@@ -28,7 +24,6 @@ export default {
     return {
       user: {
         username: '',
-        full_name: '',
         password: '',
       },
     };
