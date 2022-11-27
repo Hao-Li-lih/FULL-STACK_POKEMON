@@ -25,4 +25,4 @@ Pour accéder le front : [http://localhost:8080](http://localhost:8080)
 ## Introduction du Projet
 Dans ce projet, nous avons créé un site de wiki pokemon. 
 Tous d'abord, pour accéder au ce site, il faut d'abord créer un compte avec un nom et un code. Nous pouvons re-accéder ce site en utilisant ce nom et code. 
-Et ensuite, dans le rubrique "dashbord", nous pouvons ajouter des nouveaus pokemons avec ses nom et description. Entrer le nom et description, et cliquer sur "Submit", nous pouvons voir les information en bas. Par exemple : 
+Et ensuite, dans le rubrique "dashbord", nous pouvons ajouter des nouveaus pokemons avec ses nom et description. Entrer le nom et description, et cliquer sur "Submit", nous pouvons voir les information en bas. Par exemple : ![image](https://github.com/Hao-Li-lih/FULL-STACK_POKEMON/blob/main/photo/photo1.png) 
