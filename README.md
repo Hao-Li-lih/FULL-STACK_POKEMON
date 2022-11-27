@@ -38,9 +38,15 @@ Nous pouvons également se déconnecter en cliquant sur "Se déconnecter" en hau
 
 ## Reference
 1.https://github.com/DataTrainingOrg/fullstack-data-application
+
 2.https://github.com/zy7y/watch-fastapi et https://juejin.cn/post/7015178908169404447
+
 3.https://www.cnblogs.com/leiziv5/p/15416978.html
-4.https://fastapi.tiangolo.com/
+
+4.https://fastapi.tiangolo.com
+
 5.https://github.com/testdrivenio/fastapi-vue
+
 6.https://phillyharper.medium.com/svelte-fastapi-hello-world-2d545b901a34
+
 7.https://github.com/tiangolo/full-stack-fastapi-postgresql
