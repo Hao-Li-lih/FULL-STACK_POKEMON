@@ -1,4 +1,4 @@
-# FastAPI和Vue，前端是做测试的，用的别人的模板，能改改就改改
+
 # Projet Full-stack : Wiki Pokemon
 
 
